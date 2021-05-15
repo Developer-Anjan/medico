@@ -112,4 +112,11 @@
 .dropleft .dropdown-toggle::before {
   border: none;
 }
+
+@media only screen and (max-width: 600px) {
+  #main-wrapper {
+    margin: 0;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
