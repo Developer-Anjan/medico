@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Medcare Medical</title>
+    <meta name="description" content="" />
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../css/bootstrap.css" />
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <!-- Normalize/Reset CSS-->
+    <link rel="stylesheet" href="../css/normalize.min.css" />
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/@mdi/font/css/materialdesignicons.min.css"
+    />
+  </head>
+
+  <body id="welcome">
+    <aside class="left-sidebar">
+      <div class="logo">
+        <a href="#welcome">
+          <h4>Medico</h4>
+        </a>
+      </div>
+      <nav class="left-nav">
+        <ul>
+          <li class="current"><a href="#welcome">Dashboard</a></li>
+          <li><a href="#installation">Appoinments</a></li>
+          <li><a href="#tmpl-structure">Lab Tests</a></li>
+          <li><a href="#css-structure">Medicine Orders</a></li>
+          <li><a href="#javascript">Online Consultations</a></li>
+          <li><a href="#contact-form">Feedback</a></li>
+          <li><a href="#subscription-form">Payments</a></li>
+          <li><a href="profile.html">profile</a></li>
+          <li><a href="#video">Logout</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <div id="main-wrapper">
+      <div class="container pt-3 px-5">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <h3 class="font-20 weight-900 mt-3 mb-1">All Bookings</h3>
+            <p class="font-13">all bookings made by you</p>
+          </div>
+          <a href="" class="btn btn-outline-primary btn-md">new booking</a>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-4">
+            <div class="card">
+              <img class="card-img-top" src="../../img/team/1.jpg" alt="" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h4 class="mb-2">
+                    <span class="badge badge-success"
+                      ><span
+                        class="mdi mdi-checkbox-marked-circle-outline"
+                      ></span>
+                      confirmed</span
+                    >
+                  </h4>
+                  <div class="dropleft">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                      <span class="mdi mdi-dots-vertical"></span>
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">payment</a>
+                      <a class="dropdown-item" href="#">view doctor</a>
+                      <a class="dropdown-item" href="#">cancel</a>
+                    </div>
+                  </div>
+                </div>
+
+                <h5 class="font-18 weight-700">Dr. John Doe</h5>
+                <p class="font-14 weight-500 mt-3">
+                  <span class="mdi mdi-google-maps"></span> St. John Hosptal
+                </p>
+                <p class="font-13 weight-500 mt-1">
+                  <span class="mdi mdi-clock-outline"></span> 25th May, 12.00 pm
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img class="card-img-top" src="../../img/team/2.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="mb-2">
+                  <span class="badge badge-warning"
+                    ><span class="mdi mdi-exclamation"></span> pending</span
+                  >
+                </h4>
+
+                <h5 class="font-18 weight-700">Dr. John Doe</h5>
+                <p class="font-15 weight-500 mt-3">
+                  <span class="mdi mdi-google-maps"></span> St. John Hosptal
+                </p>
+                <p class="font-13 weight-500 mt-1">
+                  <span class="mdi mdi-clock-outline"></span> 25th May, 12.00 pm
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img class="card-img-top" src="../../img/team/1.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="mb-2">
+                  <span class="badge badge-danger"
+                    ><span class="mdi mdi-cancel"></span> cancelled</span
+                  >
+                </h4>
+
+                <h5 class="font-18 weight-700">Dr. John Doe</h5>
+                <p class="font-14 weight-500 mt-3">
+                  <span class="mdi mdi-google-maps"></span> St. John Hosptal
+                </p>
+                <p class="font-13 weight-500 mt-1">
+                  <span class="mdi mdi-clock-outline"></span> 25th May, 12.00 pm
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Essential JavaScript Libraries
+	==============================================-->
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.nav.js"></script>
+    <script src="../../js/popper.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+  </body>
+</html>

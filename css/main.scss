@@ -16,8 +16,14 @@
   &-12 {
     font-size: 12px;
   }
+  &-13 {
+    font-size: 13px;
+  }
   &-14 {
     font-size: 14px;
+  }
+  &-15 {
+    font-size: 15px;
   }
   &-16 {
     font-size: 16px;
@@ -75,4 +81,8 @@
     object-fit: cover;
     object-position: center;
   }
+}
+
+.dropleft .dropdown-toggle::before {
+  border: none;
 }
